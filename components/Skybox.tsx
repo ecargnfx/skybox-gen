@@ -5,8 +5,8 @@ const Skybox = () => {
   return (
     <Environment 
         background={true} 
-        path="/assets/skybox/" 
-        files={['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png']} />
+        path="/assets/skybox/fantasy-room/" 
+        files={['cube_right.png', 'cube_left.png', 'cube_up.png', 'cube_down.png', 'cube_back.png', 'cube_front.png']} />
   );
 };
 
